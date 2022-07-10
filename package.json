@@ -18,12 +18,12 @@
     "format": "prettier --write .",
     "test-all": "npm run check-format && npm run check-lint && npm run check-types && npm run build",
     "prepare": "husky install",
-    "pre-push": "git diff HEAD --quiet && npm run test"
+    "pre-push": "npm run test"
   },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "git diff HEAD --quiet && npm run test"
+      "pre-push": "npm run test"
     }
   },
   "dependencies": {
