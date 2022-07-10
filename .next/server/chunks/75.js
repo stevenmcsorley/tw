@@ -187,7 +187,7 @@ const Header = ()=>{
                 py: 8,
                 textTransform: 'uppercase'
             },
-            children: "Torywatch.com"
+            children: "Tory watch"
         })
     }));
 };
