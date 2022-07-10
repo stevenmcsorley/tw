@@ -15,7 +15,7 @@ const About = () => {
           component="div"
           sx={{ textAlign: 'center', py: 8, textTransform: 'uppercase' }}
         >
-          About Tory watch
+          About Tory watch dot com
         </Typography>
       </Container>
       <Container

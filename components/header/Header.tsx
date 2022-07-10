@@ -9,7 +9,7 @@ const Header = () => {
         component="div"
         sx={{ textAlign: 'center', py: 8, textTransform: 'uppercase' }}
       >
-        Torywatch.com
+        Tory watch
       </Typography>
     </Box>
   )
